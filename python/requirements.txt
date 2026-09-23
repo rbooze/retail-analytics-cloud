@@ -1,0 +1,5 @@
+pandas
+pyodbc
+sqlalchemy
+google-cloud-bigquery
+python-dotenv
