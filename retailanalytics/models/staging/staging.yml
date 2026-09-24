@@ -1,0 +1,30 @@
+version: 2
+models:
+  - name: stg_customer_experiment
+    description: Customer experiment assignments loaded from SQL Server.
+
+    columns:
+      - name: ExperimentID
+        tests:
+          - not_null
+
+      - name: CustomerID
+        tests:
+          - not_null
+
+      - name: GroupName
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - Control
+                  - Treatment
+
+      - name: Revenue
+        tests:
+          - not_null
+
+      - name: Profit
+        tests:
+          - not_null
