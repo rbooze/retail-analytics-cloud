@@ -356,4 +356,4 @@ Planned improvements:
 
 The dbt project follows a layered analytics architecture:
 
-![dbt lineage graph](.screenshots/dbt_lineage.png)
+![dbt lineage graph](screenshots/dbt_lineage.png)
