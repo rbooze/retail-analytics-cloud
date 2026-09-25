@@ -5,7 +5,7 @@ config-version: 2
 profile: 'retailanalytics'
 
 model-paths: ["models"]
-analysis-paths: ["analyses"]
+analysis-paths: ["analytics"]
 test-paths: ["tests"]
 seed-paths: ["seeds"]
 macro-paths: ["macros"]
