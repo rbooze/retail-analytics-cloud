@@ -340,6 +340,42 @@ This project demonstrates:
 
 ---
 
+# Screenshots
+
+## Analytics Architecture
+
+The project follows a modern analytics engineering architecture using a layered approach:
+
+- Raw data ingestion
+- dbt staging transformations
+- Intermediate business logic
+- Analytics marts
+- Business intelligence reporting
+
+![Analytics Architecture](screenshots/architecture.png)
+
+
+## dbt Lineage
+
+The dbt lineage graph demonstrates how raw experiment data flows through the transformation layers into business-ready analytics models.
+
+![dbt lineage graph](screenshots/dbt_lineage.PNG)
+
+
+## Power BI Dashboard
+
+The Power BI dashboard provides business-facing analysis of experiment performance, including:
+
+- Control versus Treatment comparison
+- Purchase rate lift
+- Revenue impact
+- Profit impact
+- Statistical significance
+
+![Power BI Dashboard](screenshots/powerbi_dashboard.png)
+
+---
+
 # Future Enhancements
 
 Planned improvements:
@@ -350,9 +386,3 @@ Planned improvements:
 - Advanced statistical models
 - Power BI executive dashboard
 - CI/CD deployment workflow
-
-## dbt Lineage
-
-The dbt project follows a layered analytics architecture:
-
-![dbt lineage graph](screenshots/dbt_lineage.PNG)
